@@ -1,0 +1,31 @@
+class Shape {
+	public void draw() {
+		System.out.println("도형그리기");
+	}
+	public void painting() {
+		System.out.println("색칠하기");
+	}
+}
+class circle extends Shape {
+	public void draw() {
+		System.out.println("원그리기");
+	}
+	public void painting() {
+		System.out.println("색칠하기");
+	}
+}
+class casting_Test2 {
+	public static void main(String ar[]) {
+		Shape s=new Shape();
+		s.draw(); //도형크리기
+		s.painting(); //에러
+
+		circle c1=new circle();
+		c1.draw(); //원그리기
+		c1.painting(); //색칠하기
+
+		Shape s2=c1; //업캐스팅
+		s2.draw(); //원그리기
+		s2.painting();
+	}
+}

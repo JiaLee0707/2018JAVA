@@ -1,0 +1,19 @@
+import java.util.*;
+//10개의 데이터를 입력받아서 최대값 구하기
+class ArrayList_Test2 {
+public static void main(String ar[]) {
+	ArrayList<Integer> list2=new ArrayList<Integer>();
+	//for(입력받기) add();
+	Scanner sc=new Scanner(System.in);
+	int max=0;
+	for(int i=0; i<10; i++) {
+		list2.add(sc.nextInt());
+		if(max<list2.get(i)) {
+			max=list2.get(i);
+		}
+	}
+	System.out.println(max);
+
+	//비교해서 최대값 구하기 get()
+}
+}

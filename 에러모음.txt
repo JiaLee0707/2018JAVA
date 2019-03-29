@@ -1,0 +1,21 @@
+1. reached end of file.....
+{}에러:
+{}체크하거나 갯수확인
+
+2. incompatible types : possbile lossy.....
+ 강제형변환 안했을때
+
+3. cannot find symbol
+변수선언 안하고 사용할 때
+
+4. vaiable aa might not have been initialized....
+변수 초기화 안해줬을 때--> 값을 대입해주면 된다.
+
+5.; expected : ; 안 붙였을 때 -->붙여주면 돼
+
+6.기본클래스를 찾거나 로드할 수 없습니다
+:클래스이름과 파일명이 달라
+
+7.ArrayIndexOutOfBoundsException
+배열의 방의 갯수 범위를 벗어남;
+방을 5개 만들었는데, 6번째 데이터를 가지고오려할때

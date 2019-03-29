@@ -1,0 +1,4 @@
+class Param_Test5 {
+  public static void main(String ar[]) {
+
+    //2개의 수를 입력받아 더한 값과 배열크기 출력

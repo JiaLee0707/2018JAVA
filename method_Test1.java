@@ -1,0 +1,25 @@
+/* 메서드 4가지 방식으로 만들기
+1. 어떤값이 짝수인지 홀수인지 판단
+2. 절대값 구하기
+3. 양수인지 음수인지 판단
+4. 두 수 사이의 합구기*/
+
+import java.util.*;
+class method_Test1 {
+	Scanner sc=new Scanner(System.in);
+	public void a() {
+		System.out.print("숫자를 입력하시오 : ");
+		int num=sc.nextInt();
+		if(num%2==0) {
+			System.out.println(num+"은 짝수");
+		}
+		else {
+			System.out.println(num+"은 홀수");
+		}
+	}
+
+	public static void main(String ar[]) {
+		method_Test1 m=new method_Test1();
+		m.a();
+	}
+}

@@ -1,0 +1,13 @@
+import java.util.*;
+
+class homework24 {
+  public static void main(String ar[]) {
+     Scanner sc=new Scanner(System.in);
+     	//24번
+		System.out.print("자연수 한개를 입력하시오 : ");
+		int one = sc.nextInt();
+			for(int i = 1; i<=10; i++) {
+				System.out.println(one*i);
+			}
+  }
+}

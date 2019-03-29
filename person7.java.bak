@@ -1,0 +1,26 @@
+class person7 {
+	String name;
+	int age;
+	int height;
+
+	person7(String n, int h) {
+		//this(h); //h가 키
+		//name에 값 넣기
+}
+	person7 (String naem, int age, int height) {
+		this(naem, height);
+	}
+	
+	//person7(int x) {
+		this();
+		//naem에 Tom 넣기
+	}
+
+//필요한 생성자 만들기 {
+}
+	public static void main(String ar[]) {
+		person7 p=new person7("Mike",30,180);
+		p의 멤버변수들 출력
+	}
+}
+//23~24

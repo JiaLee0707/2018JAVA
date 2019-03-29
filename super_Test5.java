@@ -1,0 +1,23 @@
+class Greething {
+	String name="Mike";
+	public void sayHello() {
+		System.out.println("¾È³ç");
+	}
+}
+class EngHello extends Greething {
+	String name="Moon";
+	public void sayHello() {
+		System.out.println("nice to meet you");
+	}
+	public void test() {
+		System.out.println(super.name);
+		super.sayHello();
+	}
+}
+class super_Test5 {
+	public static void main(String ar[]) {
+		EngHello e=new EngHello();
+		e.test();
+		e.sayHello();
+	}
+}

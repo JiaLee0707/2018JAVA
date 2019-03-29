@@ -1,0 +1,62 @@
+class if_Test1 {
+//mian 입력
+//int a=3 초기화
+//a가 양수이면 "양수" 출력
+  public static void main(String ar[]) {
+	  int a=3;
+	  if(a>=) {
+		  System.out.println("양수");
+	  }
+}
+
+
+class if_Test2 {
+//main 입력
+//int a=3 초기화
+//a가 양수이면 "양수 출력
+  public staic void main(String ar[]) {
+    int a=3;
+	if ((a%2)==0) {
+		System.out.println("짝수");
+		System.out.println(a++);
+	}
+	else {
+		System.out.prinltn("홀수")
+		System.out.println(a-=2);
+	}
+}
+
+
+class if_Test3 {
+//main 입력
+//int a=7 초기화
+//a가 짝수이면 "짝수" 출력
+  public static void main(String ar[]) {
+	  int a=7;
+	  if((a%2)==0) {
+		  System.out.println("짝수");
+	  }
+}
+
+class if_Test4 {
+//main 입력
+//int a=3 초기화
+//a가 짝수이면 "짝수" 출력 a를 증가
+/*{
+	}
+}
+아니면 {
+홀수 출력 a를 2감소
+}
+*/
+  public staic void main(String ar[]) }
+    int a=3;
+	if ((a%2)==0) {
+		System.out.println("짝수");
+		System.out.println(a++);
+	}
+	else {
+		System.out.prinltn("홀수")
+		System.out.println(a-=2);
+	}
+}

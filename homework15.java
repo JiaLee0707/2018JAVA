@@ -1,0 +1,11 @@
+import java.util.*;
+
+class homework15 {
+  public static void main(String ar[]) {
+     Scanner sc=new Scanner(System.in);
+     	//15¹ø
+		for(char n=97; n<=122; n++) {
+			System.out.println(n);
+		}
+  }
+}

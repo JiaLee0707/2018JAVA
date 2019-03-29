@@ -1,0 +1,11 @@
+class if_Test3 {
+//main 입력
+//int a=7 초기화
+//a가 짝수이면 "짝수" 출력
+  public static void main(String ar[]) {
+	  int a=7;
+	  if((a%2)==0) {
+		  System.out.println("짝수");
+	  }
+}
+}

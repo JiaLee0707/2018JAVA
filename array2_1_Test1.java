@@ -1,0 +1,30 @@
+import java.util.*;
+
+class array2_1_Test1 {
+  public static void main(String ar[]) {
+    Scanner sc=new Scanner(System.in);
+
+    //5개 입력받아 오름차순 정렬
+	int a[]=new int[3];
+	int i;
+	int y=0; 
+	
+	
+	for(i=0; i<a.length; i++) {
+		a[i]=sc.nextInt();
+		}
+	for(i=0; i<a.length; i++) {
+		for(int j=i+1; j<a.length; j++) {
+			if(a[i]>a[j]) {
+				y=a[j];				
+				a[j]=a[i];
+				a[i]=y;
+				
+			}System.out.println("i="+i+""+"j="+j+"a[i]="+a[i]+"a[j]="+a[j]);
+		}
+	}
+	for(i=0; i<a.length; i++) {
+		System.out.print(a[i]+" ");
+	}
+ }
+}

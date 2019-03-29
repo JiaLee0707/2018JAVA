@@ -1,0 +1,10 @@
+//3. 양수인지 음수인지 판단
+//리턴값 x, 매개변수 x
+
+improt java.util.*;
+class method_Test3 {
+	public void a() {
+		
+	
+	public static void main(String ar[]) {
+

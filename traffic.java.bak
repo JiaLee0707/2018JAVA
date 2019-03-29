@@ -1,0 +1,35 @@
+import java.util.*;
+
+abstract class Vehicle {
+	Scanner sc=new Scanner(System.in);
+	String name;
+	int price;
+
+	abstract public String start(int x);
+	abstract public int stop(String x);
+	abstract public String take();
+}
+abstract class bus extends Vehicle {
+	String name="버스";
+	
+	public String start(int x) { //출발시간
+		String st="서울";
+		return st; 
+	}
+	public int stop(String x) { //도착지
+		int y=5;
+		return y;//도착시간
+	}
+}
+class Str extends bus {
+	public String take() {
+		String Starting=sc.next();
+		return Starting;
+	}
+}
+class traffic {
+	public static void main(String ar[]) {
+		Str s=new Str();
+		s.start();
+	}
+}

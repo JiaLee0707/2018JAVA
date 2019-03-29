@@ -1,0 +1,11 @@
+class Account{
+	private String account_No;//계좌번호
+	private String passwd;//비밀번호
+	priavet int balance;//잔고
+
+//계좌번호 세팅메서드(12345678)
+//비밀번호 세팅메서드(1111)
+//메서드 deposit() 입금
+
+//메서드 widthDraw()출금
+}	

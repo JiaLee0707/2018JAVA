@@ -1,0 +1,25 @@
+import java.util.*;
+
+class switch_Test6 {
+  public static void main(String ar[]) {
+
+    //month:현재 월이 들어가 있음(4)
+    int month=Calendar.getInstance().get(Calendar.MONTH)+1;
+    String season="";
+
+      switch(month) {
+       case 3 : System.out.println("봄");
+       case 4 : System.out.println("봄");
+       case 5 : System.out.println("봄");
+       case 6 : System.out.println("여름");
+       case 7 : System.out.println("여름");
+       case 8 : System.out.println("여름");
+       case 9 : System.out.println("가을");
+       case 10 : System.out.println("가을");
+       case 11 : System.out.println("가을");
+       case 12 : System.out.println("겨울");
+       case 1 : System.out.println("겨울");
+       case 2 : System.out.println("겨울");
+       }
+}
+}

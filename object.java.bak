@@ -1,0 +1,40 @@
+//간단한 그래픽 편집기
+import java.util.*;
+
+abstract class DObject {
+	abstract public void draw();
+}
+class Figure extends DObject {
+	String type; //circle, line, rect
+	public void draw() {
+		switch(type) {
+			case "circle":System.out.println("circle"); break;
+			case "line":System.out.println("line"); break;
+			case "rect":System.out.println(type); break;
+		}
+	}
+}
+class Menu {
+	Scanner sc=new Scanner(System.in);
+	//Figue 객체배열 10개 만들어
+	Figure f[]=new Figure[10];
+	Menu() {
+		for(int i=0; i<f.length; i++) {
+			f[i]=new Figure();
+		}
+	}
+	public void Insert(int i) {
+		System.out.println("도형종류 Line(1), Rect(2), Circle(3)>> ");
+		int number=sc.nextInt();
+		switch(number) {
+			case 1 : f[0].type="Line"; break;
+			case 2 : f[1].type="Rect"; break;
+			case 3 : f[2].type="Circle"; break;
+			default : System.out.println("잘못입력하셨습니다.");
+		}
+	}
+
+	public void Exit() {
+		System.exit(0);//프로그램 종료
+	}
+}
